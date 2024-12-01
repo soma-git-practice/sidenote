@@ -15,7 +15,22 @@
     "commands": [{
       "command": "sidenote.helloWorld",
       "title": "Hello World"
-    }]
+    }],
+    "viewsContainers": {
+      "activitybar": [
+        {
+          "id": "sidenote",
+          "title": "メモ帳",
+          "icon": "src/dep.svg"
+        }
+      ]
+    },
+    "views": {
+      "sidenote": [{
+        "id": "text-area",
+        "name": "入力欄"
+      }]
+    }
   },
   "scripts": {
     "lint": "eslint .",
