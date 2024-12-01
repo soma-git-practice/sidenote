@@ -8,6 +8,10 @@ TODO
 	x PrimarySidebarに入力欄を追加
 	x アイコン差し替え
 	x TypeScriptに挑戦
+
+	DocmentがTypeScriptばっかりだからTypeScript勉強して出直した方が早いと思った。
+	TypeScript読めるようにはなりたいと思っている。
+	だからTypeScript勉強して出直すことにした。
 */
 
 const vscode = require('vscode');
